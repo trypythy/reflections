@@ -1,0 +1,62 @@
+IFinding difference between files
+how did viewing a diff between 2 versions help you spot the bug?
+
+used
+diff -u <old file name> <new file name>
+and then spotted (- +) and figured out the typo
+spacr instead of space.
+----
+
+How could having easy access to the entire history of a file make
+you a more efficient programmer in the long term?
+
+In case of mess ups I could revert to previous 'safe' versions.
+Can also learn how the program was eventually, gradually developed.
+Can also reverse engineer programs by moving backwards one by one.
+----
+
+What do you think are the pros and cons of manually choosing when
+to create a commit, like you do in Git, vs having versions
+automatically saved, like Google Docs does?
+
+pro: you choose the different versions and not machine
+- you have access to the different versions as they wanted.
+- sometimes you may just be playing around and don't want that
+to be saved as version - which otherwise may be saved in case
+of automatic saves
+
+Cons: you may forget to commit - big mistake
+- you may commit too big(too many changes in less versions) OR
+too small commits (too many files with each a small change)
+----
+
+Why do you think some version control systems, like Git,
+allow saving multiple files in one commit, while others,
+like Google Docs, treat each file separately?
+
+so that interrelated changes can be mapped - as in how
+multiple files were changed to accommodate a new feature.
+----
+
+How can you use the commands git log and git diff to view
+the history of files?
+
+git log is to see all the commits, starting with the most recent
+on top. You can use 'q' to quit out of git log
+git diff is to find the difference between two commits.
+----
+
+How might using version control make you more confident to make
+changes that could break something?
+
+you can always 'git checkout' to revert to a version when things
+were all fine. The commit which introduced the bug will be erroneous.
+----
+
+Now that you have your workspace set up, what do you want to
+try using Git for?
+
+For getting awesome depositaries from different people, change
+them and make my own versions to experiment & learn.
+----
+
