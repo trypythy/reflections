@@ -16,3 +16,26 @@ It helps add several files, directories
 and then commit. Need to word it better!
 ----
 
+How can you use the staging area to make sure
+you have one commit per logical change?
+
+perhaps by adding only one change at a time!
+----
+
+What are some situations when branches would 
+be helpful in keeping your history organized?
+How would branches help?
+
+branches allow you to branch out without
+affecting the code - specially useful when
+you want to experiment with something while
+keeping the main code unaffected or rather
+want to add features to master and also 
+experiment with a branch!
+
+'git branch' shows the available branches
+'git branch <new branchName> would create a
+new branch.
+'git checkout branchName' would move to the
+mentioned branchName
+----
