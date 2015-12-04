@@ -39,3 +39,38 @@ new branch.
 'git checkout branchName' would move to the
 mentioned branchName
 ----
+
+How do the diagrams help you visualize the
+branch structure?
+
+shows the branches and how they progressed
+wrt to the other branches in the system
+eg.
+brijeshtripathi (master) asteroids $ git log --graph --oneline master coins easy-mode
+* 29d482b Make the asteroid break into 2 pieces instead of 3
+* 3884eab Add color
+* 3e42136 now using requestAnimationFrame
+* 4035769 frame interval was set wrong after game was paused
+* 25ede83 a couple missing ends with the ipad version
+* df03538 I can't spell 'screen' apparently :)
+| * 354dfdd Make ships able to spawn on coins
+| * 0c6daf1 Make it possible to collect coins
+| * a3c0ae4 Create helper functions
+| * 656b02e First pass at adding coins
+|/  
+* b0678b1 Revert controls
+* f19cb1b Fix typo in space
+* 75928a9 Use space for movement and enter for shooting
+
+the above thing shows the git log in a graph mode
+and one line per commit for the three branches
+master, coins & easy-mode
+new branch(coins) was created after 
+b0676b1('revert controls)
+and coins branch then had 656, a3c...354 as 
+the subsequent commits in its branch. Master
+had b067('revert controls) and then df0(spell 'screen')
+
+pretty helpful to visualise, no?
+----
+
