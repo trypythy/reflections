@@ -96,3 +96,18 @@ Why represent in diagrams? well that gives a very
 good visualisation!
 ----
 
+What are the pros and cons of Git’s automatic
+merging vs. always doing merges manually?
+
+well, automatic is good as long as there are
+no conflicts on a file. If there are changes
+on the same file from both the branches(that
+you're merging) manual is the way to go.
+when there are conflicts, git will tell you
+so and you can check the conflicts manually
+by looking for content in <<<<<<HEAD
+and >>>>>>HEAD.
+HEAD represents the status of the file
+in the current branch.
+----
+
