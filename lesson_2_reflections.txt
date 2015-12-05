@@ -86,3 +86,13 @@ had b067('revert controls) and then df0(spell 'screen')
 pretty helpful to visualise, no?
 ----
 
+What is the result of merging two branches together?
+Why do we represent it in the diagram the way we do?
+
+merging combines two branches, adding 'features' that
+were once being experimented on a particular branch - 
+in our case 'coins'branch.
+Why represent in diagrams? well that gives a very 
+good visualisation!
+----
+
