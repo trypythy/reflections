@@ -17,3 +17,8 @@ Clone: when you want to clone a repo. Fork is also a clone but fork allows you t
 Branches: when you want to add a feature or experiment with stuff ona particular repo.
 ----
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+to gauge what changes have happened since you synced with the repo.
+----
+
