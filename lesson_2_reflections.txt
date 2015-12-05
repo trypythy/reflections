@@ -44,7 +44,19 @@ How do the diagrams help you visualize the
 branch structure?
 
 shows the branches and how they progressed
-wrt to the other branches in the system
+wrt to the other branches in the system.
+Plus you can also checkout a particular
+commit(you come in detached HEAD state) and
+if you want, you can create a new branch of
+that commit by using
+ 
+git checkout -b new_branch_name
+(equivalent to 2 commands
+1. git branch new_branch_name
+2. git checkout new_branch_name)
+
+this will create a new branch at your current
+commit.
 eg.
 brijeshtripathi (master) asteroids $ git log --graph --oneline master coins easy-mode
 * 29d482b Make the asteroid break into 2 pieces instead of 3
