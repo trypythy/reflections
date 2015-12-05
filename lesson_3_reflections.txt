@@ -22,3 +22,8 @@ What is the benefit of having a copy of the last known state of the remote store
 to gauge what changes have happened since you synced with the repo.
 ----
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+now that we know about services like git, it would be hard to collaborate without it. Everything would be easier with git, except maybe things for which one would have to wait for a collaborator to update/merge before things can be taken live.
+----
+
