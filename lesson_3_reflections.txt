@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+A remote repository would make sense(and perhaps the logical option) when one is not on his local system!
+also to collaborate with others and get their contributions to my repository, it would help if they could
+push it to the remote repository.
